@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/edu
+    username: 'postgres'
+    password: 'admin'
+
+    hikari:
+      auto-commit: false
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: 'true'
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+server:
+  port: 9000
+
+mysecrets:
+  app:
+    jwtSecret: MySecretsSecretKey
+    jwtExpirationMs: 86400000
