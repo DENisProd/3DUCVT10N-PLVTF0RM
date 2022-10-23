@@ -132,3 +132,14 @@ POST http://localhost:9000/api/admin/user/
 		"balance": 0,
 		"roles": ["ROLE_USER","ROLE_MODERATOR"]
 	}
+	
+	
+	Создать вопрос
+POST http://localhost:9000/api/user/question/
+{
+"question":"enjciuecneicinecinencencecnececdencjecndjcdnjdnc"
+}
+
+Получить все вопросы
+GET http://localhost:9000/api/admin/questions/
+
