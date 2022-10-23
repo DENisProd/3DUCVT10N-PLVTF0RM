@@ -1,3 +1,5 @@
+https://hack.mysecrets.site/api/
+
 POST Регистрация 
 http://localhost:9000/api/auth/signup
 {
