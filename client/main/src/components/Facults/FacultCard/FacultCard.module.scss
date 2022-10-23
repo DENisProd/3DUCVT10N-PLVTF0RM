@@ -1,0 +1,138 @@
+.facultCard {
+  display: flex;
+  margin-top: 15px;
+
+  &__big {
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+
+    margin-right: 30px;
+
+    &_title1 {
+      font-family: Halvar Breit Rg, sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+    }
+
+    &_desc {
+      margin-top: 20px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #141414;
+      width: 790px;
+    }
+
+    &_title2 {
+      font-family: Halvar Breit Rg, sans-serif;
+      margin-top: 20px;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 100%;
+      color: #141414;
+    }
+  }
+
+  &__tags {
+    width: 732px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  &__small {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+
+    h3 {
+      font-family: Halvar Breit Rg, sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+    }
+  }
+
+  &__contacts {
+    margin-top: 20px;
+
+    &_title {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 140%;
+      color: #141414;
+    }
+
+    &_phones {
+      margin-top: 13px;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      gap: 20px;
+      font-weight: 500;
+      font-size: 14px;
+
+      div {
+        display: flex;
+        gap: 5px;
+      }
+    }
+
+    &_email {
+      margin-top: 13px;
+      display: flex;
+      gap: 5px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: #4200FF;
+    }
+  }
+
+  &__address {
+    margin-top: 20px;
+
+    &_title {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 140%;
+      color: #141414;
+    }
+
+    &_pos {
+      width: 288px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #141414;
+      margin-top: 10px;
+    }
+  }
+
+  &__dop {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+
+    &_title1 {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 140%;
+      color: #141414;
+    }
+
+    &_title2 {
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      color: #141414;
+    }
+  }
+}

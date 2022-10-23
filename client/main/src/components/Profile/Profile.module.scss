@@ -1,0 +1,159 @@
+.profile {
+  display: flex;
+  height: 810px;
+  padding-bottom: 100px;
+
+
+  &__content {
+    display: flex;
+    margin-left: 30px;
+    gap: 30px;
+  }
+
+  &__photo {
+    padding: 30px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    height: 406px;
+
+    &_person {
+      font-family: Halvar Breit Rg, sans-serif;
+      color: #fff;
+      padding: 10px 15px;
+      display: flex;
+      background: #4200FF;
+      border-radius: 100px;
+      font-weight: 500;
+      font-size: 16px;
+
+      img {
+        margin-right: 5px;
+      }
+    }
+
+    &_bigPerson {
+      margin-top: 20px;
+    }
+
+    &_title {
+      text-align: center;
+      margin-top: 20px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+    }
+
+    &_btns {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    &_btn1 {
+      font-family: 'Inter', sans-serif;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      padding: 7px 14px;
+      gap: 5px;
+      background: rgba(0, 0, 0, 0.05);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 7px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 140%;
+      color: #868686;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    &_btn2 {
+      font-family: 'Inter', sans-serif;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      padding: 7px 20px;
+      gap: 5px;
+      background: rgba(0, 0, 0, 0.05);
+      border: 1px solid #FF3030;
+      border-radius: 7px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 140%;
+      color: #868686;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__info {
+    padding: 30px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    height: 406px;
+  }
+
+  &__inp {
+
+    p {
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+    }
+
+    div {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding: 10px 28px 10px 10px;
+      width: 539px;
+      height: 42px;
+      background: rgba(0, 0, 0, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 7px;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: #141414;
+      opacity: 0.5;
+    }
+  }
+
+  &__ball {
+    padding: 30px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    height: 350px;
+  }
+
+  &__ballinfo {
+    p {
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+      color: #141414;
+    }
+
+    div {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      color: #fff;
+      font-family: Halvar Breit Rg, sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      padding: 8px;
+      width: 286px;
+      height: 52px;
+      background: #4200FF;
+      border-radius: 7px;
+    }
+  }
+}

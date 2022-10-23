@@ -1,0 +1,86 @@
+.prepods {
+  display: flex;
+  height: 810px;
+
+  
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      text-decoration: none;
+      color: #292B32;
+    }
+
+    &_main {
+      border: 1px solid #4200FF;
+      background: #000;
+    }
+
+    &_line {
+      border-bottom: 1px solid #DCDEE1;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__myprepods {
+    margin-left: 30px;
+
+    h2 {
+      font-family: Halvar Breit Rg, sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+    }
+  }
+
+  &__list {
+    margin-top: 18px;
+    display: flex;
+  }
+
+  &__allprepods {
+    margin-top: 38px;
+
+    &__title {
+      display: flex;
+      align-items: center;
+
+      h2 {
+        margin-right: 35px;
+      }
+    }
+  }
+
+  &__search {
+    width: 366px;
+    height: 46px;
+    background: #fff;
+    border-radius: 100px;
+    display: flex;
+
+    img {
+      padding-left: 15px;
+      padding-right: 5px;
+      width: 45px;
+    }
+
+    input {
+      outline: none;
+      border: 0;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #292B32;
+    }
+
+    input::placeholder {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #141414;
+      opacity: 0.8;
+    }
+  }
+}

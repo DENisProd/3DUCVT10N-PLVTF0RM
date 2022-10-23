@@ -1,0 +1,101 @@
+.help {
+  display: flex;
+  height: 810px;
+
+  &__quest {
+    margin-left: 30px;
+
+    h2 {
+      font-family: Halvar Breit Rg, sans-serif;
+      font-weight: 700;
+      font-size: 36px;
+    }
+  }
+
+  &__contacts {
+    margin-top: 20px;
+
+    &_title {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 140%;
+      color: #141414;
+    }
+
+    &_phones {
+      margin-top: 13px;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      gap: 20px;
+      font-weight: 500;
+      font-size: 14px;
+
+      div {
+        display: flex;
+        gap: 5px;
+      }
+    }
+
+    &_email {
+      margin-top: 13px;
+      display: flex;
+      gap: 5px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: #4200FF;
+    }
+  }
+
+  &__list {
+    margin-top: 15px;
+    display: flex;
+  }
+
+  &__big {
+    margin-right: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+
+    h3 {
+      font-family: Halvar Breit Rg, sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+    }
+  }
+
+  &__small {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+
+    h3 {
+      font-family: Halvar Breit Rg, sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      width: 287px;
+    }
+  }
+}
+
+.questCard {
+  margin-top: 15px;
+  padding: 8px 32px 8px 30px;
+  width: 774px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #141414;
+  }
+}

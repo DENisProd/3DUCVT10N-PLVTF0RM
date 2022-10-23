@@ -1,0 +1,89 @@
+.leftButton {
+  display: flex;
+  align-items: center;
+  width: 222px;
+  height: 46px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: Halvar Breit Rg, sans-serif;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 11px 16px;
+  transition: .4s ease-in-out;
+  margin-bottom: 15px;
+
+  p {
+    margin-left: 10px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: #4200FF;
+    color: #fff;
+
+    svg {
+      path {
+        stroke: #fff;
+      }
+    }
+  }
+}
+
+.leftButtonHere {
+  display: flex;
+  align-items: center;
+  width: 222px;
+  height: 46px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: Halvar Breit Rg, sans-serif;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 11px 16px;
+  transition: .4s ease-in-out;
+  margin-bottom: 15px;
+
+  background: #4200FF;
+  color: #F2F0F7;
+
+  p {
+    margin-left: 10px;
+  }
+
+  svg {
+    path {
+      stroke: #fff;
+    }
+  }
+}
+
+
+.leftButton2 {
+  display: flex;
+  align-items: center;
+  width: 222px;
+  height: 46px;
+  border: 1px solid #4200FF;
+  font-family: Halvar Breit Rg, sans-serif;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 11px 16px;
+  transition: .4s ease-in-out;
+
+  p {
+    margin-left: 10px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: #4200FF;
+    color: #fff;
+
+    svg {
+      path {
+        stroke: #fff;
+      }
+    }
+  }
+}

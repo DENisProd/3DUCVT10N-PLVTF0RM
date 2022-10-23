@@ -1,0 +1,64 @@
+.prepodCard {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  margin-right: 30px;
+
+  &__title {
+    display: flex;
+    align-items: center;
+
+    img {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+    }
+
+    p {
+      font-family: Halvar Breit Rg, sans-serif;
+      margin-left: 15px;
+      width: 187px;
+      font-weight: 700;
+      font-size: 16px;
+    }
+  }
+
+  &__desc {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #141414;
+    font-family: 'Inter',sans-serif;
+    width: 311px;
+    line-height: 140%;
+  }
+
+  &__info {
+    margin-top: 10px;
+    display: flex;
+    gap: 14px;
+
+    div {
+      display: flex;
+
+      p {
+        font-family: 'Inter', sans-serif;
+        margin-left: 8px;
+        font-weight: 500;
+        font-size: 14px;
+        span {
+          color: #4200FF;
+        }
+      }
+    }
+  }
+
+  &__tags {
+    margin-top: 10px;
+    width: 311px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}

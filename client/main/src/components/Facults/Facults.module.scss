@@ -1,0 +1,55 @@
+.facults {
+  display: flex;
+
+
+  &__myfacults {
+    margin-left: 30px;
+    h2 {
+      font-family: Halvar Breit Rg, sans-serif;
+      font-weight: 700;
+      font-size: 36px;
+    }
+  }
+
+  &__allFacults {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+
+    h2 {
+      margin-right: 35px;
+    }
+  }
+
+  &__search {
+    width: 380px;
+    height: 46px;
+    background: #fff;
+    border-radius: 100px;
+    display: flex;
+
+    img {
+      padding-left: 15px;
+      padding-right: 5px;
+      width: 45px;
+    }
+
+    input {
+      width: 300px;
+      outline: none;
+      border: 0;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #292B32;
+    }
+
+    input::placeholder {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #141414;
+      opacity: 0.8;
+    }
+  }
+}

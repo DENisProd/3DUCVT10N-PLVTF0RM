@@ -1,0 +1,142 @@
+.col_bar {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 10px;
+
+  width: 230px;
+  height: 50px;
+
+  background: #4200FF;
+  border-radius: 100px;
+  margin-bottom: 15px;
+
+
+}
+
+.cards_1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 10px;
+  margin-bottom: 15px;
+  width: 230px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  font-family: 'Halvar Breitschrift';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+
+  color: #292B32;
+
+}
+
+.cards_12 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 10px;
+  margin-bottom: 15px;
+  width: 230px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  margin-top: 40px;
+  font-family: 'Halvar Breitschrift', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+
+  color: #292B32;
+;
+}
+
+.Sidebar {
+  max-width: 300px;
+  padding-right: 30px;
+
+  .item{
+    text-transform: lowercase;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 222px;
+    border-radius: 100px;
+    margin-bottom: 15px;
+    height: 46px;
+    font-family: Halvar Breit Rg, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    svg{
+      path{
+        stroke:#4200FF;
+
+      }
+    }
+    &:hover{
+      background-color:#4200FF;
+      cursor: pointer;
+      color: #fff;
+      svg{
+        path{
+          stroke:#fff;
+        }
+      }
+    }
+
+  }
+  hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #DCDEE1;
+    border: 0.5px solid #DCDEE1;
+  }
+}
+
+.navigation {
+  margin-right: 30px;
+
+  a {
+    text-decoration: none;
+    color: #292B32;
+  }
+
+  &_main {
+    border: 1px solid #4200FF;
+    background: #000;
+  }
+
+  &__links_line {
+    border-bottom: 1px solid #DCDEE1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__here {
+    background-color:#4200FF;
+  }
+}
+

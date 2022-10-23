@@ -1,0 +1,33 @@
+.news {
+  display: flex;
+
+  &__navigation {
+    flex: 1;
+  }
+
+  &__srollcontainer {
+    height: 800px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    flex: 3;
+
+    &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+  }
+
+  &__newsday {
+    margin-left: 30px;
+    flex: 2;
+
+    &__title {
+      gap: 10px;
+      display: flex;
+      font-family: Halvar Breit Rg, sans-serif;
+      font-weight: 700;
+      font-size: 26px;
+    }
+  }
+}

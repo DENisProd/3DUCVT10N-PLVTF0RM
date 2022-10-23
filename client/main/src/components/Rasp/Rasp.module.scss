@@ -1,0 +1,23 @@
+.rasp {
+  padding-bottom: 120px;
+  display: flex;
+
+
+  &__content {
+    margin-left: 30px;
+    h2 {
+      font-family: Halvar Breit Rg, sans-serif;
+      font-weight: 700;
+      font-size: 36px;
+    }
+  }
+
+  iframe {
+    margin-top: 20px;
+    width: 1231px;
+    height: 620px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+  }
+}

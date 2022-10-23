@@ -1,0 +1,26 @@
+.SmallNewsCard {
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  padding: 15px;
+  font-family: 'Inter', sans-serif;
+
+  h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #141414;
+  }
+
+  p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #141414;
+    opacity: 0.8;
+    width: 443px;
+    height: 42px;
+    overflow: hidden;
+  }
+}

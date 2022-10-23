@@ -1,0 +1,111 @@
+@import "../../utils/colors";
+
+.BigNewsCard {
+  background: #F7F5F2;
+  border: 1px solid #E6E6E6;
+  border-radius: 25px;
+  max-width: 730px;
+  padding: 30px;
+  margin-bottom: 30px;
+
+  &__fire {
+    width: 37px;
+    height: 37px;
+    background: #FFF5F3;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+
+  &__tags {
+    display: flex;
+  }
+
+  &__title {
+    margin-top: 20px;
+    width: 436px;
+    font-family: Halvar Breit Rg, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -0.01em;
+  }
+
+  &__data {
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #141414;
+    opacity: 0.6;
+  }
+
+  &__description {
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: #141414;
+  }
+
+  &__photo {
+    margin-top: 20px;
+    border-radius: 13px;
+    width: 665px;
+    height: 267px;
+  }
+
+  &__buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    height: 45px;
+    border: 1px solid #D9D7D5;
+    border-radius: 77px;
+    gap: 7px;
+
+    svg{
+      path{
+        stroke:#000;
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: $main_color;
+
+      p {
+        color: #fff;
+      }
+      svg{
+        path{
+          stroke:#fff;
+        }
+      }
+    }
+  }
+
+  &__views {
+    display: flex;
+    align-items: center;
+    color: #949391;
+    gap: 8px;
+  }
+}

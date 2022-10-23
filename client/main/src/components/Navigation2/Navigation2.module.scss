@@ -1,0 +1,23 @@
+.navigation2 {
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      text-decoration: none;
+      color: #292B32;
+    }
+
+    &_main {
+      border: 1px solid #4200FF;
+      background: #000;
+    }
+
+    &_line {
+      border-bottom: 1px solid #DCDEE1;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}

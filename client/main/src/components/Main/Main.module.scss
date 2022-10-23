@@ -1,0 +1,16 @@
+.main {
+  background: #F7F5F2;
+  border-radius: 60px 60px 0 0 ;
+  position: absolute;
+  width: 100%;
+  top: 100px;
+
+  &__container {
+    max-width: 1480px;
+    margin: 0 auto;
+  }
+
+  &__inner {
+    margin-top: 32px;
+  }
+}

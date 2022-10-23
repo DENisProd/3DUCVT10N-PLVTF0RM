@@ -1,0 +1,232 @@
+@import "../../utils/colors";
+
+.header {
+  background-color: $main_color;
+  height: 150px;
+  font-family: Halvar Breit Rg, sans-serif;
+  font-weight: 700;
+
+  &__container {
+    max-width: 1480px;
+    margin: 0 auto;
+  }
+
+  &__inner {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__leftside {
+    display: flex;
+    align-items: center;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__newStudy {
+    margin-left: 9px;
+    margin-right: 45px;
+  }
+
+  &__search {
+    width: 366px;
+    height: 46px;
+    background: #fff;
+    border-radius: 100px;
+    display: flex;
+
+    img {
+      padding-left: 15px;
+      padding-right: 5px;
+      width: 45px;
+    }
+
+    input {
+      outline: none;
+      border: 0;
+      font-family: Halvar Breit Rg, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #292B32;
+    }
+
+    input::placeholder {
+      font-family: Halvar Breit Rg, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #292B32;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    gap: 10px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__nav>div:hover {
+    cursor: pointer;
+  }
+
+  &__connection {
+    height: 48px;
+    background: #4200FF;
+    color: #F7F5F2;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    padding-right: 27px;
+    font-weight: 500;
+    font-size: 16px;
+
+    img {
+      margin-left: 27px;
+      margin-right: 13px;
+    }
+  }
+
+  &__enter {
+    height: 48px;
+    background: #4200FF;
+    color: #F7F5F2;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    padding: 15px 16px;
+    font-weight: 500;
+    font-size: 16px;
+
+    img {
+      margin-left: 22px;
+      margin-right: 13px;
+    }
+  }
+
+  &__profile {
+    display: flex;
+    align-items: center;
+    font-family: Halvar Breit Rg, sans-serif;
+    gap: 10px;
+    padding: 12px 16px;
+    height: 46px;
+    background: #fff;
+    border: 2px solid #F2F0F7;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  &__registration {
+    height: 46px;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: flex;
+    align-items: center;
+    color: #4200FF;
+    background: #F7F5F2;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+  }
+}
+
+.modal {
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    h3 {
+      font-family: Halvar Breit Rg, sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+    }
+  }
+
+  &__contact {
+    margin-top: 30px;
+
+    h4 {
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    input {
+      outline: none;
+      margin-top: 15px;
+      padding: 13px 16px;
+      width: 424px;
+      height: 46px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 100px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+
+      &::placeholder {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #141414;
+        opacity: 0.7;
+      }
+    }
+  }
+
+  &__reason {
+    margin-top: 30px;
+    h4 {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 30px;
+      border: 0;
+      padding: 15px 30px;
+      width: 424px;
+      height: 46px;
+      background: #4200FF;
+      border-radius: 100px;
+      font-family: Halvar Breit Rg, sans-serif;
+      color: #fff;
+      font-weight: 500;
+      font-size: 16px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    textarea {
+      resize: none;
+      margin-top: 15px;
+      outline: none;
+      padding: 16px;
+      width: 424px;
+      height: 123px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+    }
+  }
+}

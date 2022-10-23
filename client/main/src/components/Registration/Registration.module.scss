@@ -1,0 +1,103 @@
+.registration {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1220px;
+  margin: 0 auto;
+
+  &__form {
+    padding: 25px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 596px;
+  }
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+
+    h3 {
+      font-family: Halvar Breit Rg, sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+    }
+  }
+
+  &__type {
+    margin-top: 30px;
+  }
+
+  &__info {
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+  }
+
+  &__enter {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  &__enterhelp {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 100px;
+      padding: 10px 20px;
+    }
+  }
+
+  &__btns {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__btn1 {
+    height: 46px;
+    background: #4200FF;
+    border-radius: 100px;
+    border: 0;
+    font-family: Halvar Breit Rg, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__btn2 {
+    background-color: #fff;
+    margin-top: 15px;
+    font-family: Halvar Breit Rg, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    height: 46px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
